@@ -15,7 +15,7 @@ export default function Foreground() {
     {
       id: 2,
       desc: 'Success is not final, failure is not fatal: It is the courage to continue that counts.',
-      size: '0.9 mb',
+      size: '0.3 mb',
       download: false,
       tag: true,
       tagText: '',
@@ -24,7 +24,7 @@ export default function Foreground() {
     {
       id: 3,
       desc: 'Why did the scarecrow win an award? Because he was outstanding in his field!',
-      size: '0.9 mb',
+      size: '0.2 mb',
       download: true,
       tag: true,
       tagText: 'Lorem, ipsum dolor.',
@@ -33,7 +33,7 @@ export default function Foreground() {
     {
       id: 4,
       desc: 'The only way to achieve the impossible is to believe it is possible.',
-      size: '0.9 mb',
+      size: '0.7 mb',
       download: false,
       tag: true,
       tagText: '',
