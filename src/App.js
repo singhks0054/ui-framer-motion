@@ -18,7 +18,7 @@ function App() {
             </>
           }
         />
-        <Route path='/email' exact Component={Email} />
+        <Route path='/email' exact element={<Email/>} />
       </Routes>
     </>
   );
