@@ -9,7 +9,7 @@ function App() {
     <>
       <Routes>
         <Route
-          path='/docs'
+          path='/'
           exact
           element={
             <>
@@ -18,7 +18,9 @@ function App() {
             </>
           }
         />
-        <Route path='/' exact element={<Email/>} />
+        <Route path='/email' exact element={<Email />} />
+        {/* add a not found route */}
+        <Route path='*' element={<h1 className='text-center font-mono text-red-600 text-5xl mt-4 '>Not Found</h1>} />
       </Routes>
     </>
   );
