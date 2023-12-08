@@ -9,7 +9,7 @@ function App() {
     <>
       <Routes>
         <Route
-          path='/'
+          path='/docs'
           exact
           element={
             <>
@@ -18,7 +18,7 @@ function App() {
             </>
           }
         />
-        <Route path='/email' exact element={<Email/>} />
+        <Route path='/' exact element={<Email/>} />
       </Routes>
     </>
   );
